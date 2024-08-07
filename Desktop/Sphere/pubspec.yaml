@@ -1,0 +1,64 @@
+name: sphere_book
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.8
+  flutter_screenutil: ^5.9.0
+  font_awesome_flutter: ^10.7.0
+  google_fonts: ^6.2.1
+  go_router: ^14.0.2
+  equatable: ^2.0.5
+  dartz: ^0.10.1
+  dio: ^5.4.3+1
+  flutter_bloc: ^8.1.5
+  get_it: ^7.7.0
+  json_annotation: ^4.9.0
+  cached_network_image: ^3.3.1
+  email_validator: ^2.1.17
+  modal_progress_hud_nsn: ^0.5.1
+  card_loading: ^0.3.2
+  flutter_svg: ^2.0.10+1
+  intl: ^0.19.0
+  flutter_stripe: ^10.1.1
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+
+
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^3.0.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/Sphere.png"
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+
+  fonts:
+    - family: GT Sectra Fine
+      fonts:
+        - asset: assets/fonts/GT Sectra Fine Regular.ttf
+
